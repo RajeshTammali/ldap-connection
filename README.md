@@ -1,3 +1,5 @@
 # ldap-connection
-sample project contains source code how to connect to ldap and modify attribute in ldap.
-In this we are fetching the country attribute from ldap and we are updating the location attribute in ldap by using the values from country.
+
+#LDAPAttributeClient conatins source code which is used to connect to WSO2 5.7 embedded LDAP.
+#Retrives all the users in the subtrees and removes the ref value in 5.7.0.
+#updates  the users resourceType value as User in 5.9.0
